@@ -1,0 +1,44 @@
+.actions .difficulty-levels a.btn-light-blue-bg:nth-child(1n) {
+  color: rgba(88, 205, 255, 1) !important;
+  background: rgba(88, 205, 255, 0.1) !important;
+}
+.actions .difficulty-levels a.btn-light-blue-bg:nth-child(1n):hover {
+  border: 1px solid rgba(88, 205, 255, 1) !important;
+}
+
+.actions .difficulty-levels a.btn-light-blue-bg:nth-child(2n) {
+  color: #1565c0 !important;
+  background: rgba(21, 101, 192, 0.2) !important;
+  border: 1px solid #e7e3e3;
+}
+.actions .difficulty-levels a.btn-light-blue-bg:nth-child(2n):hover {
+  border: 1px solid rgba(21, 101, 192, 0.2) !important;
+}
+
+.actions .difficulty-levels a.btn-light-blue-bg:nth-child(3n) {
+  color: #ff767d !important;
+  background: rgba(255, 118, 125, 0.2) !important;
+  border: 1px solid #e7e3e3;
+}
+.actions .difficulty-levels a.btn-light-blue-bg:nth-child(3n):hover {
+  border: 1px solid rgba(255, 118, 125, 0.2) !important;
+}
+
+
+
+/** kerlos-ui**/
+.actions .difficulty-levels a.btn-light-blue-bg:nth-child(1n).selected{
+  background: #58cdff!important;
+  color: #fff!important;
+  border: 1px solid #58cdff;
+}
+.actions .difficulty-levels a.btn-light-blue-bg:nth-child(2n).selected{
+  background: #1565c0!important;
+  color: #fff!important;
+  border: 1px solid #1565c0;
+}
+.actions .difficulty-levels a.btn-light-blue-bg:nth-child(3n).selected{
+  background: #ff767d!important;
+  color: #fff!important;
+  border: 1px solid #ff767d;
+}

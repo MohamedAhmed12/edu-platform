@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{439:function(t,e,n){"use strict";n.r(e);var r={auth:"guest",layout:"auth",components:{RegisterForm:n(331).a}},o=n(4),component=Object(o.a)(r,(function(){var t=this.$createElement;return(this._self._c||t)("register-form",{attrs:{userType:"student"}})}),[],!1,null,null,null);e.default=component.exports}}]);

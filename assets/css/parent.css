@@ -1,0 +1,198 @@
+/* ===========================================// home //============================= */
+
+.home-content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.home-content .left-side {
+  width: 70%;
+}
+
+.home-content .right-side {
+  width: calc(30% - 25px);
+}
+
+/***************** start persont-list ****************/
+
+.persont-list {
+  padding: 30px;
+  padding-bottom: 0;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  filter: drop-shadow(0 20px 60px rgba(60, 62, 74, 0.16));
+  border-radius: 15px;
+}
+
+.persont-list .top {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.persont-list .btns {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-shrink: 0;
+}
+.persont-list .btns .button {
+  width: 180px;
+  margin-right: 20px;
+}
+
+.persont-list .persons-search {
+  position: relative;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.persont-list .input {
+  width: 100%;
+  height: 50px;
+  padding-right: 55px;
+  padding-left: 15px;
+  background-color: #f5f6f8;
+  border-radius: 10px;
+}
+
+.persont-list .submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 0 10px 10px 0;
+}
+
+.persont-list .input:focus ~ .submit,
+.persont-list .submit:hover {
+  color: #ffffff;
+  background-color: #ff767d;
+}
+
+.person-box {
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #f5f6f8;
+  border-radius: 10px;
+}
+
+.person-box .img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+
+.person-box .type {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #36b0c3;
+}
+
+.person-box .name {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #1c2832;
+}
+
+.person-box .remove {
+  display: block;
+  width: 100px;
+  height: 22px;
+  margin: auto;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #ff767d;
+  border: 1px solid #ff767d;
+  border-radius: 5px;
+}
+
+.person-box .remove:hover {
+  color: #ff767d;
+  background-color: transparent;
+}
+
+.pay-box {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  filter: drop-shadow(0 20px 60px rgba(60, 62, 74, 0.16));
+  border-radius: 15px;
+}
+
+.pay-box .info {
+  max-width: 50%;
+}
+
+.pay-box .price {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.pay-box .button {
+  width: 170px;
+  max-width: 100%;
+  background-color: #709d86;
+  border-color: #709d86;
+}
+
+.pay-box .button:hover {
+  color: #709d86;
+  background-color: transparent;
+}
+
+.pay-box .img {
+  max-width: 55%;
+}
+
+.view-box {
+  padding: 43px 30px;
+  text-align: center;
+  background-color: #ffffff;
+  filter: drop-shadow(0 20px 60px rgba(60, 62, 74, 0.16));
+  border-radius: 15px;
+}
+
+.view-box .img {
+  width: 61%;
+  margin-bottom: 10px;
+}
+
+.view-box .button,
+.blue-btn {
+  margin: 0 10px;
+  margin-bottom: 5px;
+  background-color: #4368db;
+  border: 1px solid #4368db;
+}
+
+.view-box .button:hover,
+.blue-btn:hover {
+  color: #507cff;
+  background-color: transparent;
+}

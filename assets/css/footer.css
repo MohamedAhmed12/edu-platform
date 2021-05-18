@@ -1,0 +1,104 @@
+/***************** start footer ****************/
+footer {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  background-color: #3259fe;
+}
+
+.footer-padding {
+  padding: 30px 0;
+}
+
+.footer .logo {
+  width: 165px;
+  max-width: 100%;
+}
+
+.footer .small-font {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff !important;
+}
+
+.footer-title--footer {
+  padding-left: 2%;
+  margin-bottom: 24px;
+  font-size: 26px;
+  color: #67c2fe;
+}
+
+.footer .social {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 200px;
+}
+
+.footer .social a {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  margin: 0 5px;
+  color: rgba(246, 252, 255, 0.79);
+  border: 1px solid rgba(103, 194, 254, 0.5);
+  border-radius: 50%;
+  transition: 0.3s !important;
+}
+
+.footer .social a:hover {
+  color: #3259fe;
+  background-image: radial-gradient(
+    circle at top right,
+    yellow 15%,
+    #f06d06 75%
+  );
+}
+
+.copy {
+  padding: 10px;
+  font-family: font-bold;
+  font-family: inherit;
+  font-size: 18px;
+  color: #7380af;
+  text-align: center;
+  background-color: #ffffff;
+  transform: translateY(100%);
+}
+
+.footer-title {
+  margin-bottom: 24px;
+  font-size: 26px;
+  color: #67c2fe;
+}
+.footer-logo-img {
+  width: 100px !important;
+}
+
+
+
+/** kerlos ui**/
+
+.footer-title {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 19px;
+  color: #ffffff !important;
+}
+
+/***************** end footer ****************/

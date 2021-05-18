@@ -1,0 +1,132 @@
+.title-font {
+  margin-bottom: 15px;
+  font-family: "font-bold";
+  font-size: 27px;
+  color: #2b292d;
+}
+
+.package-card {
+  padding: 19px 0;
+  margin: 15px 7px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 3px #d3d3d3;
+}
+
+.fa-eye {
+  padding: 22px 19px;
+  font-size: 22px;
+  color: white;
+  background: #6a9360;
+  border-radius: 20px;
+}
+@media screen and (max-width: 450px) {
+  .fa-eye {
+    padding: 16px;
+    font-size: 15px;
+    color: white;
+    background: #6a9360;
+    border-radius: 12px;
+  }
+}
+.btn-Re-evaluate {
+  width: 100px;
+  padding: 5px 8px;
+  font-size: 14px;
+  color: white;
+  background: #6a9360;
+  border: 0;
+  border-radius: 11px;
+}
+
+.btn-Re-evaluate:hover {
+  color: white;
+}
+
+p {
+  font-size: 15px;
+  color: #6a696c;
+}
+
+.package-card .package-name {
+  margin-bottom: 7px;
+  font-size: 18px;
+  color: #3f3658;
+}
+
+.ptl-15 {
+  padding: 16px 18px;
+}
+
+.mt-6 {
+  margin-top: 6px;
+}
+
+p .fas {
+  padding: 2px;
+}
+
+.page-content {
+  height: auto;
+  background: #f7f9fb;
+}
+
+.subjects {
+  background: #f7f9fb;
+}
+
+.btn-p {
+  text-align: center;
+}
+
+footer {
+  position: unset;
+}
+
+@media screen and (max-width: 991px) and (min-width: 300px) {
+  .ptl-15 {
+    padding: 1px 0;
+    text-align: center;
+  }
+
+  .btn-p {
+    padding: 1px 0 !important;
+  }
+
+  .package-card .package-name {
+    font-size: 13px;
+  }
+
+  .package-card {
+    padding: 7px 7px 10px;
+    margin: 6px 7px;
+  }
+  .m-15 {
+    margin: 0;
+  }
+
+  p,
+  .btn-Re-evaluate {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+  .mobile-align {
+    text-align: center;
+  }
+
+  .btn-p {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1550px) and (min-width: 981px) {
+  .md-width {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+  }
+  .m-15 {
+    margin: 0;
+  }
+}

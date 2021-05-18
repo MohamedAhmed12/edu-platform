@@ -1,0 +1,225 @@
+/***************** start side-icons ****************/
+
+.side-icons {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+.side-icons li {
+  width: 100%;
+}
+
+.side-icons li span {
+  width: 80%;
+}
+.side-icons .icon {
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  font-size: 13px;
+  color: rgba(51, 51, 79, 0.3);
+  text-align: center;
+}
+@media screen and (min-width: 991px) and (max-width: 1100px) {
+  .side-icons .icon {
+    font-size: 12px;
+  }
+}
+.side-icons .icon.active,
+.side-icons .icon:hover {
+  color: #4267db;
+  opacity: 1;
+}
+
+.side-icons .icon i {
+  margin-bottom: 5px;
+  font-size: 26px;
+}
+
+.side-icons .icon.active::before,
+.side-icons .icon:hover::before {
+  position: absolute;
+  top: 0;
+  left: -5px;
+  left: 0;
+  display: block;
+  width: 5px;
+  height: 56px;
+  content: "";
+  background-color: #4267db;
+  transition: 0.2s ease-out;
+}
+
+.side-icons .icon.active::after,
+.side-icons .icon:hover::after {
+  position: absolute;
+  left: -15px;
+  display: block;
+  content: "";
+  border: 7px solid transparent;
+  border-left-color: #4267db;
+  transition: 0.2s ease-out;
+}
+
+.inner-header .logo {
+  width: 150px;
+}
+
+.inner-header .logo img {
+  width: 100%;
+}
+
+/* custom */
+.page-content {
+  height: 80vh;
+  overflow-y: scroll;
+}
+.inner-header {
+  position: relative;
+  width: 100%;
+  box-shadow: 0 -1px 11px 6px rgba(0, 0, 0, 0.05);
+}
+.dropdown-menu.show {
+  left: -20% !important;
+}
+.lang-dropdown {
+  background-color: #f5f6f8;
+}
+.lang-dropdown span {
+  text-transform: uppercase;
+}
+
+.dropdown .dropdown-toggle::after {
+  display: none;
+}
+.dropdown a {
+  color: #1c2832;
+}
+.lang-dropdown img {
+  width: 20px;
+}
+.dropdown .btn.focus,
+.dropdown .btn:focus {
+  box-shadow: none;
+}
+.dropdown i {
+  position: relative;
+  top: 2px;
+  color: #9e9da6;
+}
+
+.user-dropdown img {
+  width: 50px;
+}
+.notification i {
+  font-size: 25px !important;
+  opacity: 0.6;
+}
+
+.notification-alarm::before {
+  position: absolute;
+  top: 10px;
+  right: 13px;
+  z-index: 9;
+  display: block;
+  width: 10px;
+  height: 10px;
+  content: "";
+  background-color: #ff767d;
+  border-radius: 50%;
+}
+
+.search-form,
+.input-group-text {
+  border-left: 0;
+}
+
+.input-group-text {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.rtl .input-group-text {
+  border-radius: 1rem 0 0 1rem !important;
+}
+.search-form {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.rtl .input-group input[type="text"] {
+  border-radius: 0 1rem 1rem 0 !important;
+}
+input.form-control.search-form {
+  background-color: #f5f6f8;
+  outline: none;
+  box-shadow: none;
+}
+.input-group input[type="text"] {
+  height: 45px;
+}
+.input-group input[type="submit"] {
+  font-size: 15px !important;
+  line-height: 0px;
+}
+.input-group input[type="submit"]:hover {
+  color: #0f68fa;
+}
+.side-icons .icon.active::after,
+.side-icons .icon:hover::after {
+  position: absolute;
+  top: 15px;
+  left: 2px;
+  display: block;
+  content: "";
+  border: 13px solid transparent;
+  border-left-color: #4267db;
+  transition: 0.2s ease-out;
+}
+aside {
+  box-shadow: 1px 0 7px 0 rgba(0, 0, 0, 0.05);
+}
+footer {
+  bottom: -8px;
+  width: 100%;
+}
+
+.rtl .side-icons .icon:hover::before,
+.rtl .side-icons .icon.active::before {
+  right: 0;
+  border-right-color: #4267db;
+  border-left-color: transparent;
+}
+
+.rtl .side-icons .icon:hover::after,
+.rtl .side-icons .icon.active::after {
+  right: 2px;
+  border-right-color: #4267db;
+  border-left-color: transparent;
+}
+.rtl .side-icons .nav-list {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.side-icons .nav-list {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+}

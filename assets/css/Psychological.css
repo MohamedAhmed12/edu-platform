@@ -1,0 +1,87 @@
+.btn-black-custome {
+  padding: 11px 114px;
+  font-family: "font-bold";
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  background: #274056;
+  border: 0;
+  border-radius: 50px;
+}
+.aside-img {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.aside-img img {
+  max-width: 40%;
+}
+.card-img-top {
+  height: 186px;
+  border-radius: 10px;
+}
+
+.back-color {
+  padding: 20px;
+  background: #b3e0ff 0% 0% no-repeat padding-box;
+  border-radius: 17px;
+}
+
+.back-color h3,
+.result {
+  margin-bottom: 15px;
+  font-family: "font-bold";
+  font-size: 23px;
+  color: #3f3658;
+}
+.exame-title {
+  margin-bottom: 30px;
+  font-family: "font-bold";
+  font-size: 27px;
+  color: #283d4f;
+  text-transform: uppercase;
+}
+
+.card-text {
+  display: block;
+  display: -webkit-box;
+  height: 57px;
+
+  /* max-width: 400px; */
+
+  /* height: 109.2px; */
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #3f3658;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* .card-body {
+
+    min-height: 150px;
+} */
+.card-course img {
+  max-height: 170px;
+}
+.card .btn {
+  width: 115px;
+}
+.aside-img .aside-content {
+  padding: 4%;
+  color: #ffffff;
+  background-color: #35cada;
+}
+
+
+/** kerlos-ui **/
+@media screen and (min-width:1080px){
+  .psychoTest_button{
+    position: absolute;
+    left: 15px;
+    bottom: 12px;
+  }
+}

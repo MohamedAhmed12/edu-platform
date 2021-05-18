@@ -1,0 +1,45 @@
+
+#editor {
+  min-height: 180px;
+  border: 1px solid #d8d8d8;
+}
+
+.group-name {
+  position: relative;
+  min-height: 150px;
+  padding: 30px 20px;
+  margin-top: 35px;
+  border: 1px solid #d8d8d8;
+}
+
+
+ .group-name .group-name-header.theFiles{
+   position: absolute;
+   background: #fafafa;
+   top: -18px;
+    right: inherit;
+    left: 16px;
+}
+
+.rtl .group-name .group-name-header.theFiles {
+  position: absolute;
+  background: #fafafa;
+  top: -18px;
+  right: 16px;
+  width: 110px
+}
+.boxInstructor{
+  box-shadow: 0 10px 40px #eee;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+
+.boxInstructor h3{
+  padding-right: 0!important;
+  padding-left: 0!important;
+}
+.btn-success{
+  color: #fff!important;
+}

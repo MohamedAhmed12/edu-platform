@@ -1,0 +1,33 @@
+/dist
+/.nuxt
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+
+# IDE / Editor
+.idea
+idea.config.js
+
+# Service worker
+sw.*
+
+# Mac OSX
+.DS_Store
+
+# Vim swap files
+*.swp
+.vscode
+assets/css/bootstrap-ar.min.css
+assets/css/fieldsLinker.css
+static/css/bootstrap-ar.min.css
+static/css/bootstrap-en.min.css
+assets/css/font-awesome-5all.css
+
+static/css/bootstrapar.css

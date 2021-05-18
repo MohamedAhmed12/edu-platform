@@ -1,0 +1,33 @@
+pipelines:
+  custom:
+    clear-cache:
+      - step:
+          name: Clearing the cache
+          image:
+            name: mcuyar/docker-envoy
+          script:
+            - envoy run purge_cache
+  branches:
+    production:
+      - step:
+          name: Deploy Run
+          image:
+            name: mcuyar/docker-envoy
+          script:
+            - envoy run deploy
+
+
+
+# image: atlassian/default-image:latest
+# pipelines:
+#   branches:
+#     dev:
+#       - step:
+#           name: Deploy to dev
+#           deployment: dev
+#           script:
+#             - pipe: atlassian/ssh-run:0.2.2
+#               variables:
+#                 SSH_USER: 'root'
+#                 SERVER: '178.62.21.96'
+#                 COMMAND: './deploy_student.sh'

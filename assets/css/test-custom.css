@@ -1,0 +1,79 @@
+.exame-title {
+  margin-bottom: 30px;
+  font-family: "font-bold";
+  font-size: 27px;
+  color: #283d4f;
+  text-transform: uppercase;
+}
+
+.exam label {
+  /*    padding: 0 20px 0 0; */
+  margin: 0 20px 20px;
+  border: 1px solid #e9ebea;
+}
+
+/* Radio Button */
+
+.exam input[type="radio"] {
+  display: none;
+}
+
+.exam input[type="radio"] + span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-top: 5px;
+
+  /* align the label with the image */
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.exam input[type="radio"] + .myCheckbox1 {
+  color: #ffffff;
+  text-align: center;
+  background: #f96a56 left top no-repeat;
+}
+
+.exam input[type="radio"] + .myCheckbox2 {
+  color: #ffffff;
+  text-align: center;
+  background: #f96a56 left top no-repeat;
+}
+
+.exam input[type="radio"] + .myCheckbox3 {
+  color: #ffffff;
+  text-align: center;
+  background: #f96a56 left top no-repeat;
+}
+
+.exam input[type="radio"] + .myCheckbox4 {
+  color: #ffffff;
+  text-align: center;
+  background: #f96a56 left top no-repeat;
+}
+
+.exam .radio-last {
+  color: #ffffff;
+  text-align: center;
+  background: #f96a56 left top no-repeat;
+}
+
+.exam input[type="radio"]:checked + span {
+  background: #274056;
+}
+
+.exam p {
+  display: inline-block;
+  width: 210px;
+  padding: 5px;
+  text-align: left;
+}
+
+.exam .fa-angle-right {
+  padding: 10px 20px;
+  font-size: 40px;
+  color: #bfc2c1;
+  border: 1px solid #bfc2c1;
+  border-radius: 50%;
+}

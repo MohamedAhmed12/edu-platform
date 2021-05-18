@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recess-order",
+    "stylelint-config-styled-components",
+    "stylelint-prettier/recommended"
+
+  ],
+  "plugins": [
+    "stylelint-order",
+    "stylelint-no-browser-hacks/lib",
+    "stylelint-color-format",
+    "stylelint-csstree-validator",
+    "stylelint-group-selectors",
+    "stylelint-images",
+    "stylelint-prettier"
+
+
+
+  ],
+  "rules": {
+    "unicode-bom": "never",
+
+    "indentation": 2,
+    "string-quotes": "double",
+    "no-duplicate-selectors": true,
+    "color-hex-case": "lower",
+    "color-hex-length": "long",
+    "color-no-invalid-hex": true,
+    "color-named": "never",
+    "property-no-unknown": true,
+    "csstree/validator": true,
+    "images/broken": true,
+    "prettier/prettier": true,
+
+    "declaration-block-semicolon-newline-after": "always",
+    "plugin/stylelint-group-selectors": true,
+
+    "plugin/no-browser-hacks": [true, {
+      "browsers": [
+        "last 2 versions",
+        "ie >=8"
+      ]
+    }]
+  }
+}

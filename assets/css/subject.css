@@ -1,0 +1,57 @@
+
+
+/** kerlos-ui**/
+.work-area .subjects .subjects-container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-gap: 30px;
+  padding-top: 15px;
+}
+
+.subject-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  height: 140px;
+  border-radius: 20px;
+}
+.subject-box .img{
+  overflow: hidden;
+  margin-top: 20px;
+  min-height: 65px;
+}
+.subject-box img {
+  width: 100%;
+  height: auto;
+  max-width: 87px;
+  max-height: 65px;
+  /* border-radius: .8rem .8rem 0 0; */
+}
+.subject-box .content.small-font {
+  /* max-width: 130px; */
+  font-size: 15px;
+  color: #ffffff;
+}
+.subject-box-t {
+  position: relative;
+  width: 12.5%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+@media screen and (max-width:1600px){
+  .work-area .subjects .subjects-container {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+
+@media screen and (max-width:1200px){
+  .work-area .subjects .subjects-container {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

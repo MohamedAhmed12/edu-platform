@@ -1,0 +1,99 @@
+.teachers {
+  padding: 20px 3px;
+  margin: 20px 9px;
+  background: white;
+  border-radius: 20px;
+}
+
+p {
+  margin-bottom: 9px;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.rate span {
+  color: #596a81;
+}
+
+.rate .num {
+  font-family: "font-bold";
+  color: #3f3658;
+}
+
+p i {
+  padding: 0 6px 0 0;
+}
+
+.width-80 {
+  width: 80px;
+}
+
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  float: left;
+  padding: 11px 20px;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  background: white;
+  border: 1px solid #dddddd;
+  transition: background-color 0.3s;
+}
+
+.pagination a.active {
+  color: white;
+  background-color: #3b86ff;
+  border: 1px solid #3b86ff;
+}
+
+.color-active {
+  color: #3b86ff !important;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #dddddd;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .teachers {
+    padding: 8px 1px;
+    margin: 10px 1px;
+  }
+
+  .mobile-center {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  p i {
+    padding: 0;
+  }
+
+  .pagination a {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1000px) {
+  .lg-width {
+    width: 100%;
+  }
+}

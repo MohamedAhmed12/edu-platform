@@ -1,0 +1,110 @@
+html[dir="rtl"] .inner-header .right .lang-dropdown {
+  padding-left: 5% !important;
+}
+
+html[dir="rtl"] .lesson-box .info .user-img {
+  margin-left: 10px;
+}
+
+html[dir="rtl"] li.rounded-8.blue-bg.d-inline-block.p-4.pl-4.pr-4 {
+  padding-right: 0 !important;
+}
+
+html[dir="rtl"] .checkbox i {
+  margin-left: 10px;
+}
+html[dir="rtl"] .actions .col-sm-2.col-4.pr-0,
+html[dir="rtl"] .actions .col-12.pr-0.pt-2.pb-3 {
+  padding-left: 15px !important;
+}
+html[dir="rtl"] .lesson-box .info .tit {
+  margin-bottom: 0;
+}
+
+html[dir="rtl"] .quis-details {
+  padding-right: 50px;
+}
+html[dir="rtl"] .questions-area .question-info {
+  padding-right: 1%;
+}
+html[dir="rtl"] .inner-content .work-area {
+  padding-right: 1.69%;
+  padding-left: 10px;
+}
+html[dir="rtl"] .questions-area .question-info .quis-block {
+  padding-left: 4%;
+}
+html[dir="rtl"] .ml-auto {
+  margin-left: initial;
+}
+
+.rtl .package-card,
+.rtl .card {
+  direction: rtl !important;
+}
+
+.rtl .education-title {
+  text-align: right !important;
+}
+.rtl .toasted-container.top-right {
+  top: 0% !important;
+  right: 15% !important;
+  left: auto !important;
+}
+
+.rtl .ivu-page .ivu-page-prev,
+.rtl .ivu-page .ivu-page-next {
+  transform: rotateY(180deg);
+}
+.rtl .recomended-slider {
+  padding: 20px 20px 20px 0;
+}
+
+html[dir="rtl"] .select i {
+  right: initial;
+  left: 28px;
+}
+html[dir="rtl"] .select i.country,
+html[dir="rtl"] i.fas.fa-upload {
+  right: initial;
+
+  /* left: 78px; */
+}
+
+.ivu-poptip-body-content {
+  overflow: hidden !important;
+}
+
+/**********  add rtl bootstrap class  **********/
+.rtl .ml-0 {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+.rtl .mr-0 {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+.rtl .pl-0 {
+  padding-right: 0 !important;
+}
+.rtl .pr-0 {
+  padding-left: 0 !important;
+}
+.rtl .text-left {
+  text-align: right !important;
+}
+.rtl .text-right {
+  text-align: left !important;
+}
+
+html[dir="rtl"] .education-levels .educatiion-levels--info,
+html[dir="rtl"] .education-title {
+  letter-spacing: 0;
+}
+html[dir="rtl"] .education-levels {
+  flex-direction: row;
+}
+html[dir="rtl"] .education .icon-grap {
+  margin-right: 0;
+  margin-left: 10px;
+}

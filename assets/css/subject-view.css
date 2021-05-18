@@ -1,0 +1,95 @@
+.subject-header {
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+  box-shadow: 0 0.3em 0.2em #eeeeee;
+}
+
+.subject-header .flex-grow {
+  flex-grow: 1;
+}
+
+.subject-header .price {
+  padding: 0.2em 0.5em;
+  color: #727b85;
+  background-color: #f5f6f8;
+  border: 1px solid #eeeeee;
+  border-radius: 0.5em;
+}
+
+.subject-header ul.breadcrumb li a {
+  font-weight: 700;
+}
+
+.btn-view {
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.mobile-align {
+  margin: 20px 0;
+}
+
+.btn-p {
+  margin-bottom: 10px;
+}
+
+.page-content {
+  height: auto;
+}
+
+.p-l3 {
+  padding: 3px !important;
+}
+
+footer {
+  position: unset;
+}
+.title-bg {
+  background-color: #fafafa;
+}
+@media (min-width: 1300px) {
+  .width-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20% !important;
+    flex: 0 0 20% !important;
+    max-width: 20% !important;
+  }
+}
+
+@media screen and (max-width: 1350px) and (min-width: 300px) {
+  .package-card {
+    padding: 11px 0;
+    margin: 10px 0;
+  }
+
+  .package-card .package-name {
+    font-size: 18px;
+  }
+
+  .m-15 {
+    margin: 0;
+  }
+
+  .p-l3 {
+    padding: 7px !important;
+  }
+}
+@media screen and (max-width: 1450px) and (min-width: 1400px) {
+  header.subject-header.mb-5.ml-5 {
+    margin-left: 1% !important;
+  }
+  .col-md-12.p-0.mt-30.pl-lg-4 {
+    padding-left: 1.1% !important;
+  }
+}
+@media screen and (max-width: 2570px) and (min-width: 2550px) {
+  header.subject-header.mb-5.ml-5 {
+    margin-left: 0.5% !important;
+  }
+
+  .col-lg-1.col-md-12.col-sm-12.lg-width.subject-top.d-flex.justify-content-center.ml-md-3.ml-lg-3.ml-0.ml-xl-0.pr-0 {
+    margin-left: -25px !important;
+  }
+}

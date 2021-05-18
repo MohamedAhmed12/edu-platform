@@ -1,0 +1,33 @@
+/***************** start about ****************/
+
+.about {
+  background-color: #f0f5fb;
+}
+
+.about .inner {
+  position: relative;
+  margin-top: -100px;
+  background-color: #ffffff;
+  filter: drop-shadow(0 3px 25px rgba(0, 0, 0, 0.16));
+}
+
+.about .info {
+  padding: 50px;
+}
+
+.about .title {
+  margin-bottom: 30px;
+}
+
+.about .content {
+  margin-bottom: 20px;
+}
+
+.about .more {
+  display: block;
+  width: 135px;
+  margin-left: auto;
+  text-align: center;
+}
+
+/***************** end about ****************/

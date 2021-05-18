@@ -1,0 +1,44 @@
+.vuecal__cell-content .vuecal__cell-events .vuecal__event {
+  padding: 0 2px;
+  overflow-y: auto;
+  background-color: #e7f0fe;
+  border-radius: 5px;
+}
+.vuecal__header button {
+  width: 33.3%;
+  border-left:2px solid #fafafa;
+  border-right:2px solid #fafafa;
+}
+.vuecal__header button:first-child, .vuecal__header button:last-child{
+  border: none!important;
+}
+.vuecal__title-bar button{
+  border: none!important;
+}
+
+.vuecal__event.leisure {
+  color: #ffffff;
+  background-color: rgba(253, 156, 66, 0.9) !important;
+  border: 1px solid rgb(233, 136, 46);
+}
+
+.vuecal__event.sport {
+  color: #ffffff;
+  background-color: rgba(255, 102, 102, 0.9) !important;
+  border: 1px solid rgb(235, 82, 82);
+}
+.vuecal__flex.vuecal__menu {
+  background-color: #4267db;
+}
+button.vuecal__view-btn.vuecal__view-btn--active {
+  background: #f46e2e;
+}
+.vuecal--green-theme:not(.vuecal--day-view) .vuecal__cell--selected {
+  background-color: #e4f5ef80;
+}
+html[dir="rtl"] .vuecal__arrow--next i.angle {
+  transform: rotate(132deg);
+}
+html[dir="rtl"] .vuecal__arrow--prev i.angle {
+  transform: rotate(132deg);
+}

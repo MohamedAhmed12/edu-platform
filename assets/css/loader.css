@@ -1,0 +1,126 @@
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.animated-background {
+  background: linear-gradient(to right, #f6f6f6 8%, #f0f0f0 18%, #f6f6f6 33%);
+  animation-name: placeHolderShimmer;
+  animation-duration: 1.75s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.scorllable-row {
+  max-height: 300px;
+  overflow: hidden auto;
+  scrollbar-width: thin;
+}
+
+.persont-list .button,
+.courses-list .button {
+  color: #cca8ac;
+  background-color: #ffd5d7;
+  border: none;
+}
+
+.persont-list .button.active,
+.courses-list .button.active {
+  color: #ffffff;
+  background-color: #ff767d;
+  border: 1px solid #ff767d;
+}
+
+.lang-switcher {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.lang-switcher img {
+  margin-bottom: 20px;
+}
+
+/* //loader */
+.spinner {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 100px auto;
+  text-align: center;
+  -webkit-animation: sk-rotate 2s infinite linear;
+  animation: sk-rotate 2s infinite linear;
+}
+
+.m {
+  margin: 10% 10%;
+}
+
+.dot1,
+.dot2 {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+  width: 60%;
+  height: 60%;
+  margin: 0% 10%;
+  background-color: #111a51;
+  border-radius: 100%;
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+  animation: sk-bounce 2s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+@-webkit-keyframes sk-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes sk-rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

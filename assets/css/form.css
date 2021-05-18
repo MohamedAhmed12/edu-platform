@@ -1,0 +1,58 @@
+.dropdown-question,
+.form-control {
+  height: 50px;
+  padding: 7px 15px;
+  background-color: #00bcd40a !important;
+}
+
+.input-group-append span,
+.input-group-prepend label {
+  background: #00bcd40a;
+  border: none;
+}
+
+.input-group {
+  overflow: hidden;
+  border: 1px solid;
+  border-radius: 20px;
+}
+.input-group:hover {
+  border: 1px solid #4994fe !important;
+}
+.input-group .form-control {
+  margin-bottom: -1px !important;
+  border: none;
+}
+.input-group input:focus,
+.dropdown-question:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.input-group button,
+.dropdown-question {
+  border: none !important;
+}
+
+button.update-password {
+  background: #ffffff !important;
+}
+.replce-img {
+  width: 50px;
+}
+
+/** kerlos-ui **/
+input.form-control.btn-info {
+  padding: 7px 15px;
+  background-color: #007bff !important;
+  transition: 0.3s;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+input.form-control.btn-info:hover {
+  color: #007bff !important;
+  background: #ffffff !important;
+}

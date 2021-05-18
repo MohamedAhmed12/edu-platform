@@ -1,0 +1,6 @@
+/dist
+/node_modules
+/.nuxt
+static/sw.js
+static/firebase-messaging-sw.js
+static/firebase-auth-sw.js
